@@ -1,0 +1,8 @@
+resources:
+  - ../../base
+
+patches:
+  - path: replica_count.yaml
+    target:
+      kind: Deployment
+      name: nginx-deployment
