@@ -1,7 +1,3 @@
-Here’s the full documentation for your project, "Introduction to Configuration Management in Kubernetes with Kustomize on AWS," with all sections properly structured. This version incorporates your additions and maintains clarity for each step of the project, from local deployment to leveraging AWS for cloud-based Kubernetes management. I’ve included placeholders for screenshots where appropriate.
-
----
-
 # **Project Title: Introduction to Configuration Management in Kubernetes with Kustomize on AWS**
 
 ## **Overview**
@@ -184,7 +180,7 @@ _Add screenshots of the customized `kustomization.yaml` and any files reflecting
 
 ---
 
-## 🧪 **Test the Service (from inside the cluster)**
+## **Test the Service (from inside the cluster)**
 
 Because `nginx-service` is a **ClusterIP** type, it’s only accessible **inside the cluster**, so we’ll use a temporary Pod to curl the service.
 
@@ -222,7 +218,7 @@ nslookup nginx-service
 
 ---
 
-### ✅ **Next Recommended Step: Add a `NodePort` to Dev Overlay**
+### **Next Recommended Step: Add a `NodePort` to Dev Overlay**
 
 Right now, your `nginx-service` is a `ClusterIP`, which isn’t reachable outside the cluster.
 
